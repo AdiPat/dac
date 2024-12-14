@@ -1,0 +1,21 @@
+{
+  "name": "dac",
+  "version": "1.0.0",
+  "description": "Domain Availability Checker (DAC) for Node JS and Browser. 🕸️",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "vitest --silent --coverage",
+    "test:ui": "vitest --silent --coverage --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
